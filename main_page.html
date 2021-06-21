@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/main_page.css">
+    <title>Main Page</title>
+</head>
+
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal_holder">
+                    <div class="Modal_1">
+                        <h4>Vertical</h4>
+                        <p>Select How the screen turns</p>
+                        <div class="modal_img">
+                            <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                data-bs-dismiss="modal"><img src="img/vertical.png" alt=""></button>
+                        </div>
+                    </div>
+                    <p><br></p>
+                    <div class="Modal_1">
+                        <h4>Horizontal</h4>
+                        <p>Select How the screen turns</p>
+                        <div class="modal_img">
+                            <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                data-bs-dismiss="modal"><img src="img/horizontal.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 2 -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <h4 class="text-center mt-4">Choose a template</h4>
+                <p class="text-center">Here you can choose what your post should look like
+                </p>
+                <ul class="my_ul">
+                    <li>
+                        <div class="add_img">
+                            <button class="border-0" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                                data-bs-dismiss="modal">
+                                <!-- add new div -->
+                                <div class="add_new_box">
+                                    <div class="add_new_div">
+                                        <i class="fas fa-plus"></i>
+                                        <h6>Add new</h6>
+                                    </div>
+                                </div>
+                                <!-- add -->
+                            </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="add_img">
+                            <button class="border-0" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                                data-bs-dismiss="modal">
+                                <img src="img/add2.png" alt=""></button>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="add_img">
+                            <button class="border-0" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                                data-bs-dismiss="modal">
+                                <img src="img/add2.png" alt=""></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="add_img">
+                            <button class="border-0" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                                data-bs-dismiss="modal">
+                                <img src="img/add2.png" alt=""></button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="add_img">
+                            <button class="border-0" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                                data-bs-dismiss="modal">
+                                <img src="img/add2.png" alt=""></button>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 3  -->
+    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+                <h4 class="text-center mt-4">Choose a template</h4>
+                <p class="text-center">Here you can choose what your post should look like
+                </p>
+                <div class="link_div">
+                    <a href="#" class="active">Regular Editor </a>
+                    <a href="#exampleModalToggle4" data-bs-toggle="modal" data-bs-dismiss="modal">Advanced Editor</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="editor_header">
+                            <h6>Fonts</h6>
+                            <!-- Example single danger button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn my_custom_btn3 dropdown-toggle"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Poppins
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                </ul>
+                            </div>
+                            <div class="hover_me">
+                                <button class="btn my_custom_btn3 "><i class="fas fa-pen"></i></button>
+                                <div class="drop_div p-1">
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Size</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    17
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Weight</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    23
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Transform</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Font</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Style</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Decoration</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row m-2">
+                                        <div class="col-md-4 align-self-center ">
+                                            <h6>Line space</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="btn-group w-100">
+                                                <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Default
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="align_div btn my_custom_btn5">
+                                <i class="fas fa-align-left active"></i>
+                                <i class="fas fa-align-center "></i>
+                                <i class="fas fa-align-right "></i>
+                                <i class="fas fa-align-justify "></i>
+                            </div>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="img_div">
+                            <img src="img/imgorvid.png" alt="">
+                        </div>
+                        <button class=" btn my_custom_btn w-100" data-bs-target="#exampleModalToggle5"
+                            data-bs-toggle="modal" data-bs-dismiss="modal">Select media</button>
+                        <div class="position_div">
+                            <div class="type_div">
+                                <h6>Type</h6>
+                                <div class="btn-group ">
+                                    <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Picture
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Empty</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h6 class="text-center">Change background position
+                            </h6>
+                            <div class="wall_div">
+                                <h6>Wallpaper fit</h6>
+                                <div class="btn-group">
+                                    <button type="button" class="btn my_custom_btn4 dropdown-toggle"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Default
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Empty</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bright_div">
+                                <h6>Background adjust</h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="my_grp">
+                                <button class="btn my_custom_btn w-75">Select text color</button>
+                                <button class="btn my_custom_btn4 "> <i class="fas fa-eye-dropper"></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal-footer ">
+                    <button class="btn my_custom_btn w-50" data-bs-target="#exampleModalToggle7" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 4 Advance editor -->
+    <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+                <h4 class="text-center mt-2">Choose a template</h4>
+                <p class="text-center">Here you can choose what your post should look like
+                </p>
+                <div class="link_div">
+                    <a href="#exampleModalToggle3" data-bs-toggle="modal" data-bs-dismiss="modal">Regular Editor </a>
+                    <a href="#" class="active">Advanced Editor</a>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-8">
+                        <div class="tool_bar">
+                            <div class="border_r">
+                                <ul>
+                                    <li>
+                                        <h6>TT</h6>
+                                    </li>
+                                    <li>
+                                        <h6>tt</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border_r">
+                                <ul>
+                                    <li><i class="fas fa-bold"></i></li>
+                                    <li><i class="fas fa-italic"></i></li>
+                                    <li><i class="fas fa-underline"></i></li>
+                                </ul>
+                            </div>
+                            <div class="border_r">
+                                <ul>
+                                    <li><i class="fas fa-align-left"></i></li>
+                                    <li><i class="fas fa-align-center"></i></li>
+                                    <li><i class="fas fa-align-right"></i></li>
+                                </ul>
+                            </div>
+                            <div class="border_r">
+                                <ul>
+                                    <li><i class="fas fa-pencil-alt"></i></li>
+                                    <li><i class="fas fa-spell-check"></i></li>
+                                </ul>
+                            </div>
+                            <div class="border_r">
+                                <ul>
+                                    <li><i class="fas fa-folder-open"></i></li>
+                                    <li><i class="fas fa-image"></i></li>
+                                </ul>
+                            </div>
+                            <div class="border_r">
+                                <ul>
+                                    <li>WIDTH : <h6>1440px</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="border_r ">
+                                <ul class="border-0">
+                                    <li>SCALE : <h6>100%</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+
+
+                                <a class="btn cata p-0 mt-3" data-bs-toggle="collapse" href="#collapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                    <i class="fas fa-caret-down"></i>
+                                    &nbsp;
+                                    <h2>Layout</h2>
+                                </a>
+                                <div class="collapse show" id="collapseExample1">
+                                    <div class="row">
+                                        <div class="col-md-6 p-0">
+                                            <div
+                                                class="my_custom_btn3 d-flex flex-wrap align-items-center justify-content-between p-1 rounded-3">
+                                                <h6 class="m-2">470</h6>
+                                                <h6 class="fw-light m-2">WIDTH</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-0">
+                                            <div
+                                                class="my_custom_btn3 d-flex flex-wrap align-items-center justify-content-between p-1 rounded-3">
+                                                <h6 class="m-2">Auto</h6>
+                                                <h6 class="fw-light  m-2">HEIGHT</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 p-0">
+                                            <div
+                                                class="my_custom_btn3 d-flex flex-wrap align-items-center justify-content-between p-1 rounded-3">
+                                                <h6 class="m-2">0</h6>
+                                                <h6 class="fw-light m-2">MIN W</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-0">
+                                            <div
+                                                class="my_custom_btn3 d-flex flex-wrap align-items-center justify-content-between p-1 rounded-3">
+                                                <h6 class="m-2">0</h6>
+                                                <h6 class="fw-light m-2">MIN H</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <a class="btn cata p-0 mt-3" data-bs-toggle="collapse" href="#collapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                    <i class="fas fa-caret-down"></i>
+                                    &nbsp;
+                                    <h2>Typography</h2>
+                                </a>
+                                <div class="collapse show" id="collapseExample2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <div class="align_div btn my_custom_btn5 justify-content-evenly">
+                                                <i class="fas fa-align-left active"></i>
+                                                <i class="fas fa-align-center "></i>
+                                                <i class="fas fa-align-right "></i>
+                                                <i class="fas fa-align-justify "></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="drop_div2 p-1">
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Fonts</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Poppins
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Size</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                17
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Weight</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                23
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Transform</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Default
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Font</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Default
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Style</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Default
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Decoration</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Default
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-md-4 align-self-center ">
+                                                        <h6>Line space</h6>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="btn-group w-100">
+                                                            <button type="button"
+                                                                class="btn my_custom_btn3 dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Default
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#">Empty</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <textarea name="" id="" cols="30" rows="10" class="h-100 mt-3"></textarea>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="img_div">
+                            <img src="img/imgorvid.png" alt="" class="res_need">
+                        </div>
+                        <button class=" btn my_custom_btn w-100" data-bs-target="#exampleModalToggle5"
+                            data-bs-toggle="modal" data-bs-dismiss="modal">Select media</button>
+
+                        <h6>Choose color, image, video as background</h6>
+                        <!-- color picker -->
+                        <div class="color_picker_div">
+                            <div class="dropdown">
+                                <a class="btn " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <h6>Solid Color &nbsp; <i class="fas fa-chevron-down"></i></h6>
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="my_white_div">
+                                <img src="img/whitebg.png" alt="">
+                            </div>
+
+                            <div class="color_bottom_div mt-3">
+                                <div class="w-25 m-1">
+                                    <div class="dropdown">
+                                        <a class="btn p-0" href="#" role="button" id="dropdownMenuLink"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <h6>Hex &nbsp; <i class="fas fa-chevron-down"></i></h6>
+                                        </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="w-50 m-1 " style="border-bottom: 2px solid #000">
+                                    <h6>#FAFBFB</h6>
+                                </div>
+                                <div class="w-25 m-1" style="border-bottom: 2px solid #000">
+                                    <h6><span>100% </span></h6>
+                                </div><i class="fas fa-eye-dropper"></i>
+                            </div>
+                            <div class="last_add_btn mt-3">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer ">
+                    <button class="btn my_custom_btn w-50" data-bs-target="#exampleModalToggle7" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  modal 5 select media -->
+    <div class="modal fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content my_modal">
+                <button type="button" class="btn-close" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"
+                    data-bs-dismiss="modal"></button>
+                <h4 class="text-center mt-4">Choose a template</h4>
+                <p class="text-center mb-5">Here you can choose what your post should look like
+                </p>
+                <!-- tabs -->
+
+                <div id="tabs">
+
+                    <ul>
+                        <li class="active"><a href="#tabs-1">
+                                <h6>Select media</h6>
+                            </a>
+                        </li>
+                        <li><a href="#tabs-2">
+                                <h6>Upload media</h6>
+                            </a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div class="img_area">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="img_div">
+                                        <img src="img/imgorvid.png" alt="">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-2">
+                        <div class="img_area">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="img_div">
+                                        <!-- add new div -->
+                                        <div class="add_new_box2">
+                                            <div class="add_new_div2">
+                                                <i class="fas fa-plus"></i>
+                                                <h6>Add new</h6>
+                                            </div>
+                                        </div>
+                                        <!-- add -->
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- modal 6  -->
+    <div class="modal fade" id="exampleModalToggle7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel7"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-5">
+                <h4 class="text-center mt-4">Choose a template</h4>
+                <p class="text-center mb-4">Here you can choose what your post should look like
+                </p>
+
+                <div class="days_div mb-5">
+                    <div class="day ">
+                        <h6>SUN</h6>
+                    </div>
+                    <div class="day">
+                        <h6>MON</h6>
+                    </div>
+                    <div class="day">
+                        <h6>TUE</h6>
+                    </div>
+                    <div class="day today">
+                        <h6>WED</h6>
+                    </div>
+                    <div class="day">
+                        <h6>THU</h6>
+                    </div>
+                    <div class="day">
+                        <h6>FRI</h6>
+                    </div>
+                    <div class="day">
+                        <h6>SAT</h6>
+                    </div>
+
+                </div>
+                <div class="time_div mb-4">
+                    <div class="from_div">
+                        <h5>From</h5>
+                        <input type="time">
+                    </div>
+                    <div class="from_div">
+                        <h5>Until</h5>
+                        <input type="time">
+                    </div>
+                </div>
+                <div class="my_btn_grp">
+                    <button class="btn my_custom_btn6 w-75"><a href="last_page.html">Save the Add</a>
+                    </button>
+                    <a href="last_page.html"> <button class="btn my_custom_btn w-75">Publish</button></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- modal  end -->
+
+
+    <section class="main">
+        <div class="left_div">
+            <h5>Menu</h5>
+            <ul>
+
+                <li class="active"> <img src="img/ad.png" alt=""> &nbsp; <span>Advertising Media</span> </li>
+                <li> <img src="img/bl.png" alt=""> &nbsp; <span>BI</span> </li>
+            </ul>
+
+            <h5>Library</h5>
+            <ul>
+                <li> <img src="img/map.png" alt=""> &nbsp; <span>Map</span></li>
+                <li> <img src="img/vehicles.png" alt=""> &nbsp; <span>Vehicles</span></li>
+                <li> <img src="img/devices.png" alt=""> &nbsp; <span>Devices</span></li>
+                <li> <img src="img/reports.png" alt=""> &nbsp; <span>Reports</span></li>
+            </ul>
+
+            <h5>Settings</h5>
+            <ul>
+                <li> <img src="img/admin.png" alt=""> &nbsp; <span>Admin</span></li>
+                <li> <img src="img/document.png" alt=""> &nbsp; <span>Documentation</span></li>
+                <li> <img src="img/support.png" alt=""> &nbsp; <span>Support</span></li>
+            </ul>
+        </div>
+        <!-- right div -->
+        <div class="right_div">
+            <nav class="navbar navbar-light ">
+                <div class="container-fluid">
+                    <form class="d-flex align-items-center">
+                        <div class="search_div"> <img src="img/Broken-Search.png" alt=""></div>
+                        <input class="form-control " type="search" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <div class="profile_div dropdown">
+                        <img src="img/profile.png" aria-expanded="false" data-bs-toggle="dropdown" alt=""
+                            class="dropdown-toggle" id="dropdownMenuButton1">
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+            <div class="header">
+                <div class="container-fluid">
+
+                    <div class="header_flex">
+                        <h2>Advertising Media</h2>
+                        <div class="btn_holder">
+                            <button class="btn my_custom_btn2">Upload video</button>
+                            <a class="btn my_custom_btn" data-bs-toggle="modal" href="#exampleModalToggle"
+                                role="button">
+                                Make An Adverisement</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="container-fluid">
+                    <div class="card">
+                        <h4>Edit commercials</h4>
+                        <div class="my_scroll_table">
+                            <table class="table">
+                                <thead class="my_table">
+                                    <tr>
+                                        <td>Action</td>
+                                        <td>Description</td>
+                                        <td>Rego</td>
+                                        <td>Alert type</td>
+                                        <td>Date/Time</td>
+                                        <td>Location</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="img/action.png" alt="">
+                                        </td>
+                                        <td>Brand new Iphone</td>
+                                        <td>Spill AM</td>
+                                        <td>Oxford Value</td>
+                                        <td>Périgord Avenir</td>
+                                        <td>Taylor Value</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script>
+        $(document).on('click', '.days_div .day', function () {
+            $(this).addClass('today').siblings().removeClass('today')
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+    <script>
+        $(document).on('click', '#tabs ul li', function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        });
+    </script>
+
+
+</body>
+
+</html>
